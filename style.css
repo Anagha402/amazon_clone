@@ -271,13 +271,12 @@
     font-size: 0.75rem;
 }
 .sub1:hover{
-    border: 2px solid whitesmoke;
-    scale: 1.05;
+    
     cursor: pointer;
 }
 .sub1 img{
     height: 102px;
-    width: 128px;
+    width: 140px;
     
 }
 .nested-row2{
@@ -291,8 +290,7 @@
     
 }
 .sub2:hover{
-    border: 2px solid whitesmoke;
-    scale: 1.05;
+   
     cursor: pointer;
 }
 .sub2 img{
@@ -315,8 +313,7 @@
     margin-right: 10px;
 }
 .square-img:hover{
-    border: 2px solid whitesmoke;
-    scale: 1.05;
+   
     cursor: pointer;
 
 }
@@ -360,10 +357,7 @@
     cursor: pointer;
     border: 2px solid whitesmoke;
 }
-.smallest:hover{
-    border: 2px solid transparent;
-    scale: 1.05;
-}
+
 
 /* row-5 SCROLL PRODUCT SECTION */
 #row5{
@@ -378,21 +372,22 @@
     padding: 10px;
 }
 .products img{
-    border: 2px solid whitesmoke;
+    
     margin: 20px;
     margin-bottom: 20px;
     width: 200px;
     
 }
-.products img:hover{
-    scale:1.05;
-}
+
 .products{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     overflow-x: auto;
     /* scroll and align horizontally */
+}
+.products img{
+    height: 180px;
 }
 .products::-webkit-scrollbar{
     height: 8px;
@@ -401,7 +396,7 @@
 }
 .products::-webkit-scrollbar-track{
     border-radius: 10px;
-    background-color: white;
+    background-color:white;
 }
 .products::-webkit-scrollbar-thumb{
     border-radius: 10px;
@@ -416,6 +411,31 @@
     background-color: #e2e7e6;
     height: 290px;
 
+}
+/* row 7 */
+.one-only{
+    height: 280px;
+    width: 100%;
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle{
+    height: 250px;
+    width: 60%;
+    background-color: white;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.rectangle img{
+    height: 180px;
+    width: 120px;
+    margin: 55px;
+}
+.details{
+    font-size: large;
 }
 /* sign in row */
 .white{
@@ -561,7 +581,7 @@
 }
 /* footer copyrights */
 .copyrights{
-    background-color: #0e1721;
+    background-color: #0d1620;
     color: white;
     height: 80px;
     padding-top: 10px;
